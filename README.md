@@ -12,7 +12,7 @@ Running
 =======
 1) Bank note detection
 2) Phishing detection
-3) 
+
 Contact
 =======
 
