@@ -13,14 +13,17 @@ from sklearn import manifold
 banknote_datadset = pd.read_csv('data.csv')
 X = banknote_datadset.iloc[:, 0:4].values # 4-dimensional input containing wavelet variance, skewness, curtosis and image entropy
 y = banknote_datadset.iloc[:, 4].values # 1-dimensional output containing 'real' or 'fake' label
-tsne = manifold.TSNE(n_components=2, init="pca", random_state=0, verbose=1)
-Y = tsne.fit_transform(X)
-plt.scatter(Y[:, 0], Y[:, 1], alpha=0.5)
-plt.show()
+# tsne = manifold.TSNE(n_components=2, init="pca", random_state=0, verbose=1)
+# Y = tsne.fit_transform(X)
+# plt.scatter(Y[:, 0], Y[:, 1], alpha=0.5)
+# plt.show()
 
 # STEP 2: Define classification model
-architecture = (5, 50, 50, 50, 50)
-mlp = MLPClassifier(hidden_layer_sizes=architecture, max_iter=10, alpha=1e-4, solver='adam', verbose=10, tol=1e-4, random_state=1, learning_rate_init=0.01)
+arch_big = (5, 50, 50, 50, 50)
+arch_small = (5, 5)
+mlp = MLPClassifier(hidden_layer_sizes=arch_small, 
+    max_iter=10, alpha=1e-4, solver='adam', 
+    verbose=10, tol=1e-4, random_state=1, learning_rate_init=0.01)
 
 # STEP 3: Train classficiation model
 mlp.fit(X, y)
