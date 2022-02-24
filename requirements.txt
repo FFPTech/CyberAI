@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+intertools
+matplotlib
+numpy
+arff

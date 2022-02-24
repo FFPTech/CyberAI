@@ -1,5 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+banknote/__pycache__
+phishing/__pycache__
 *.py[cod]
 *$py.class
 
