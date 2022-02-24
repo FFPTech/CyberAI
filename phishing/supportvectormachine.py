@@ -20,7 +20,7 @@ for row in rows:
     data.append(val) 
     # print(val)
 data = np.array(data)
-X = data[:, 1:31]
+X = data[:, 0:30]
 y = data[:, 30]
 
 # STEP 2: Model Training
