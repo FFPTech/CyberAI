@@ -18,5 +18,5 @@ Contact
 
 - Dr. ir. Meshia Cédric OVENEKE
 - Fit-For-Purpose Technologies SRL
-- E: cedric.oveneke@fitforpurpose.tech 
-- W: www.fitforpurpose.tech 
+- cedric.oveneke@fitforpurpose.tech 
+- www.fitforpurpose.tech 
