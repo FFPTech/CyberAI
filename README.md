@@ -4,9 +4,11 @@ Repository for evaluating Artificial Intelligence solutions for Cybersecurity
 Installation
 ============
 
-1) Install Python 3.6.7 64-bit: https://www.python.org/downloads/release/python-367/
-2) Install Visual Studio Code: https://code.visualstudio.com/download 
-3) Install Python packages using 'python -m pip install -r requirements.txt'
+1) Install Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+2) Install Python 3.6.7 64-bit: https://www.python.org/downloads/release/python-367/
+3) Install Visual Studio Code: https://code.visualstudio.com/download 
+4) Clone this repository using 'git clone https://github.com/FFPTech/CyberAI.git'
+5) Enter the 'CyberAI' folder and install Python packages using 'python -m pip install -r requirements.txt'
 
 Running
 =======
